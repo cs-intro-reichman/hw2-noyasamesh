@@ -1,11 +1,4 @@
-//feedback
 
-/*
-Great work boaz!
-*/
-
-
-// Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
                 String name = args[0];
@@ -17,7 +10,7 @@ public class Cheers {
                         if(an.indexOf(c) == -1)
                         System.out.println("Give me a  " + name.charAt(i) + ": " + name.charAt(i) + "!");
                         else 
-                        System.out.println("Give me a  " + name.charAt(i) + ": " + name.charAt(i) + "!");
+                        System.out.println("Give me aמ  " + name.charAt(i) + ": " + name.charAt(i) + "!");
                 }
                 System.out.println("What does that spell?");
                 for( int i=1; i <= num; i++){
