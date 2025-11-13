@@ -11,12 +11,13 @@ public class Cheers {
                 String name = args[0];
                 name = name.toUpperCase();
                 int num = Integer.parseInt(args[1]);
-                String an = "AEFHILMNOPSX";
+                String an = "AEFHILMNORSX";
                 for(int i=0; i < name.length(); i++){
-                        if(an.indexOf(i) == -1)
-                        System.out.println("Give me an " + name.charAt(i) + ":" + name.charAt(i) +"!");
+                        char c = name.charAt(i);
+                        if(an.indexOf(c) == -1)
+                        System.out.println("Give me a " + name.charAt(i) + ": " + name.charAt(i) +"!");
                         else 
-                        System.out.println("Give me a" + name.charAt(i) + ":" + name.charAt(i) +"!");
+                        System.out.println("Give me an " + name.charAt(i) + ": " + name.charAt(i) +"!");
                 }
                 System.out.println("What does that spell?");
                 for( int i=1; i <= num; i++){
